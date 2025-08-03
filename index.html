@@ -1,108 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Prerana Yadav | Portfolio</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      background-color: #121212;
+      color: #f1f1f1;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    h2 {
+      color: #ffcc00;
+      margin-top: 40px;
+    }
+    a {
+      color: #66ccff;
+    }
+    .section {
+      padding: 40px 0;
+      border-bottom: 1px solid #444;
+    }
+    footer {
+      background: #000;
+      color: #bbb;
+      text-align: center;
+      padding: 15px 0;
+    }
+    .btn-custom {
+      background-color: #ffcc00;
+      color: black;
+    }
+  </style>
 </head>
-<body data-bs-theme="dark">
+<body>
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow">
+  <nav class="navbar navbar-dark bg-dark sticky-top shadow">
     <div class="container">
-      <a class="navbar-brand fs-3" href="#">Prerana Yadav</a>
+      <span class="navbar-brand mb-0 h1">Prerana Yadav</span>
     </div>
   </nav>
 
-  <header class="hero text-center text-light d-flex align-items-center justify-content-center">
-    <div>
-      <h1 class="display-4 fw-bold">Hi, I'm Prerana</h1>
-      <p class="lead">CSE (AI & ML) | Developer | Designer | Visionary</p>
-    </div>
+  <header class="text-center py-5 bg-dark">
+    <h1 class="display-4 text-warning">Hi, I'm Prerana</h1>
+    <p class="lead text-light">B.Tech CSE (AI & ML) | Developer | ML Enthusiast | Web Designer</p>
   </header>
+  <div class="container">
 
-  <main class="container py-5">
-
-    <section class="mb-5 section">
+    <section class="section" id="about">
       <h2>About Me</h2>
-      <p>I’m a Computer Science Engineering student specializing in AI & ML. I’ve built full-stack websites, Android apps, and AI-based systems. I love solving real-world problems with code.</p>
+      <p>I'm a 7th-semester B.Tech Computer Science student specialized in Artificial Intelligence & Machine Learning. I'm passionate about solving real-world problems through technology and have experience in full-stack development, mobile apps, and AI projects.</p>
     </section>
 
-    <section class="mb-5 section">
+    <section class="section" id="skills">
       <h2>Skills</h2>
       <ul>
         <li><strong>Languages:</strong> Java, Python, C, C++, HTML, CSS</li>
         <li><strong>Libraries:</strong> Pandas, NumPy, OpenCV</li>
         <li><strong>Tools:</strong> Git, NetBeans, VS Code, Android Studio</li>
         <li><strong>Platforms:</strong> Windows, Ubuntu, AWS</li>
+        <li><strong>Databases:</strong> SQL, MongoDB</li>
       </ul>
     </section>
 
-    <section class="mb-5 section">
+    <section class="section" id="projects">
       <h2>Projects</h2>
       <ul>
-        <li><strong>MoodMedia Agent:</strong> AI chatbot recommending songs/movies using Dialogflow & Vertex AI</li>
-        <li><strong>Timetable Scheduler:</strong> Java app with drag-drop UI for managing university schedules</li>
-        <li><strong>Face Attendance:</strong> Face recognition system using OpenCV with 90% accuracy</li>
-        <li><strong>Crop Detection:</strong> Image classifier to detect maize crops using Roboflow</li>
-        <li><strong>Android Age Calculator:</strong> Kotlin app to calculate age from date input</li>
+        <li><strong>MoodMedia Agent:</strong> Chatbot recommending media based on user mood using Dialogflow + Vertex AI</li>
+        <li><strong>Timetable Scheduler:</strong> Drag-drop Java Swing app with SQLite backend</li>
+        <li><strong>Facial Recognition Attendance:</strong> OpenCV-based system with 90% accuracy</li>
+        <li><strong>Crop Detection:</strong> Image classifier for maize crop using Roboflow and OpenCV</li>
+        <li><strong>Age Calculator (Android):</strong> Simple Kotlin app that calculates age from birth date</li>
       </ul>
     </section>
-
-    <section class="mb-5 section">
+    <section class="section" id="mini-projects">
       <h2>Mini Projects</h2>
       <ul>
-        <li>Responsive Restaurant Website (HTML, CSS, Bootstrap)</li>
+        <li>Responsive Restaurant Website using HTML5, CSS3, and Bootstrap 3.2</li>
         <li>Calculator App (Android)</li>
         <li>Digital Visiting Card App (Android)</li>
       </ul>
     </section>
 
-    <section class="mb-5 section">
+    <section class="section" id="education">
       <h2>Education</h2>
       <ul>
-        <li><strong>B.Tech (CSE – AI & ML):</strong> 7th Sem, RGPV University</li>
-        <li><strong>Class 12:</strong> 77%, CBSE</li>
-        <li><strong>Class 10:</strong> 85%, CBSE</li>
+        <li><strong>B.Tech (AI & ML):</strong> RGPV University, 7th Sem</li>
+        <li><strong>12th:</strong> 77% (CBSE)</li>
+        <li><strong>10th:</strong> 85% (CBSE)</li>
       </ul>
     </section>
 
-    <section class="mb-5 section">
+    <section class="section" id="certifications">
       <h2>Certifications</h2>
       <ul>
-        <li>Coursera – Front-End Web UI with Bootstrap</li>
-        <li>Coursera – Web Development Basics</li>
-        <li>Google – Generative AI</li>
-        <li>IIT Bombay – Android App Dev (Spoken Tutorial)</li>
-        <li>Udemy – Git and GitHub</li>
+        <li>Coursera: Front-End Web UI with Bootstrap</li>
+        <li>Coursera: Web Development Basics</li>
+        <li>Google: Generative AI</li>
+        <li>IIT Bombay: Android Dev (Spoken Tutorial)</li>
+        <li>Udemy: Git & GitHub</li>
       </ul>
     </section>
 
-    <section class="mb-5 section">
+    <section class="section" id="achievements">
       <h2>Achievements</h2>
       <ul>
-        <li>4⭐ in Java on HackerRank</li>
-        <li>4⭐ in Python on HackerRank</li>
+        <li>4⭐ in Java (HackerRank)</li>
+        <li>4⭐ in Python (HackerRank)</li>
       </ul>
     </section>
 
-    <section class="mb-5 section text-center">
-      <h2>Contact Me</h2>
+    <section class="section" id="contact">
+      <h2>Contact</h2>
       <p>Email: <a href="mailto:01preranay@gmail.com">01preranay@gmail.com</a></p>
       <p>Phone: +91 7624817605</p>
       <p>
-        <a href="https://github.com/Prerana-Y" class="btn btn-light m-1" target="_blank">GitHub</a>
-        <a href="https://linkedin.com/in/prerana-yadav-8b8a0724b" class="btn btn-outline-light m-1" target="_blank">LinkedIn</a>
+        <a href="https://github.com/Prerana-Y" class="btn btn-custom" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/in/prerana-yadav-8b8a0724b" class="btn btn-outline-light ms-2" target="_blank">LinkedIn</a>
       </p>
     </section>
+  </div>
 
-  </main>
-
-  <footer class="bg-dark text-center text-light py-3">
-    © 2025 Prerana Yadav. All Rights Reserved.
+  <footer>
+    &copy; 2025 Prerana Yadav | All Rights Reserved
   </footer>
 
-  <script src="script.js"></script>
 </body>
 </html>

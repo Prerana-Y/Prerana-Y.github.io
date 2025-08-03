@@ -12,15 +12,32 @@
       font-family: 'Segoe UI', sans-serif;
     }
     h2 {
-      color: #ffcc00;
+      color: #00ffff;
       margin-top: 40px;
     }
     a {
-      color: #66ccff;
+      color: #00ccff;
     }
     .section {
       padding: 40px 0;
       border-bottom: 1px solid #444;
+    }
+    .hero {
+      background: linear-gradient(to right, #001f2f, #003c5c);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      color: #00ffff;
+    }
+    .avatar {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      border: 3px solid #00ffff;
+      margin-bottom: 15px;
     }
     footer {
       background: #000;
@@ -29,7 +46,7 @@
       padding: 15px 0;
     }
     .btn-custom {
-      background-color: #ffcc00;
+      background-color: #00ffff;
       color: black;
     }
   </style>
@@ -42,15 +59,16 @@
     </div>
   </nav>
 
-  <header class="text-center py-5 bg-dark">
-    <h1 class="display-4 text-warning">Hi, I'm Prerana</h1>
-    <p class="lead text-light">B.Tech CSE (AI & ML) | Developer | ML Enthusiast | Web Designer</p>
+  <header class="hero">
+    <img src="https://avatars.githubusercontent.com/u/118657707?v=4" alt="Coder Girl Avatar" class="avatar" />
+    <h1>Hi, I'm Prerana</h1>
+    <p class="lead">CSE Student | AI & ML | Web + App Developer</p>
   </header>
   <div class="container">
 
     <section class="section" id="about">
       <h2>About Me</h2>
-      <p>I'm a 7th-semester B.Tech Computer Science student specialized in Artificial Intelligence & Machine Learning. I'm passionate about solving real-world problems through technology and have experience in full-stack development, mobile apps, and AI projects.</p>
+      <p>I’m a Computer Science Engineering (AI & ML) student in my 7th semester, with a passion for full-stack web development, mobile app design, and intelligent systems. I love combining design with functionality to create impactful projects.</p>
     </section>
 
     <section class="section" id="skills">
@@ -67,47 +85,39 @@
     <section class="section" id="projects">
       <h2>Projects</h2>
       <ul>
-        <li><strong>MoodMedia Agent:</strong> Chatbot recommending media based on user mood using Dialogflow + Vertex AI</li>
-        <li><strong>Timetable Scheduler:</strong> Drag-drop Java Swing app with SQLite backend</li>
-        <li><strong>Facial Recognition Attendance:</strong> OpenCV-based system with 90% accuracy</li>
-        <li><strong>Crop Detection:</strong> Image classifier for maize crop using Roboflow and OpenCV</li>
-        <li><strong>Age Calculator (Android):</strong> Simple Kotlin app that calculates age from birth date</li>
+        <li><strong>MoodMedia Agent:</strong> AI-based chatbot using Dialogflow CX + Google Cloud Vertex AI</li>
+        <li><strong>Timetable Scheduler:</strong> Java-Swing app with SQLite and drag-drop GUI</li>
+        <li><strong>Face Attendance:</strong> Real-time facial recognition using OpenCV</li>
+        <li><strong>Crop Detection:</strong> Maize detection model using Roboflow and OpenCV</li>
+        <li><strong>Age Calculator App:</strong> Android app made in Kotlin with XML UI</li>
       </ul>
     </section>
     <section class="section" id="mini-projects">
       <h2>Mini Projects</h2>
       <ul>
-        <li>Responsive Restaurant Website using HTML5, CSS3, and Bootstrap 3.2</li>
-        <li>Calculator App (Android)</li>
-        <li>Digital Visiting Card App (Android)</li>
+        <li>Responsive Restaurant Website (HTML + CSS + Bootstrap)</li>
+        <li>Android Calculator App</li>
+        <li>Digital Visiting Card App</li>
       </ul>
     </section>
 
     <section class="section" id="education">
       <h2>Education</h2>
       <ul>
-        <li><strong>B.Tech (AI & ML):</strong> RGPV University, 7th Sem</li>
-        <li><strong>12th:</strong> 77% (CBSE)</li>
-        <li><strong>10th:</strong> 85% (CBSE)</li>
+        <li><strong>B.Tech (AI & ML):</strong> RGPV University – 7th Sem</li>
+        <li><strong>12th Grade:</strong> 77% – CBSE Board</li>
+        <li><strong>10th Grade:</strong> 85% – CBSE Board</li>
       </ul>
     </section>
 
     <section class="section" id="certifications">
       <h2>Certifications</h2>
       <ul>
-        <li>Coursera: Front-End Web UI with Bootstrap</li>
-        <li>Coursera: Web Development Basics</li>
-        <li>Google: Generative AI</li>
-        <li>IIT Bombay: Android Dev (Spoken Tutorial)</li>
-        <li>Udemy: Git & GitHub</li>
-      </ul>
-    </section>
-
-    <section class="section" id="achievements">
-      <h2>Achievements</h2>
-      <ul>
-        <li>4⭐ in Java (HackerRank)</li>
-        <li>4⭐ in Python (HackerRank)</li>
+        <li>Front-End Web UI with Bootstrap – Coursera</li>
+        <li>Web Dev Basics – Coursera</li>
+        <li>Generative AI – Google</li>
+        <li>Android App Dev – IIT Bombay (Spoken Tutorial)</li>
+        <li>Git & GitHub – Udemy</li>
       </ul>
     </section>
 
